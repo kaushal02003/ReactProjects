@@ -24,7 +24,7 @@ function Inputbox({
                     className="outline-none w-full bg-transparent py-1.5"
                     type="number"
                     placeholder="Amount"
-                    disabled = {amountDisable}
+                    disabled={amountDisable}
                     value = {amount}
                     onChange={(e)=> onAmountChange && onAmountChange(Number(e.target.value))}
                     />
